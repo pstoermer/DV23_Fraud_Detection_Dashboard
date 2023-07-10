@@ -1,0 +1,340 @@
+body {
+    /* Set the background color of the body to a light gray */
+    background-color: #d3d8de;
+    /* Remove any default margin or padding */
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    /* Make sure the container takes up the full width of the screen */
+    width: 100%;
+    /* Hide any overflow */
+    overflow: hidden;
+}
+
+/* Header styles for upper container */
+#upper-container {
+    height: 120px;
+    width: 100%;
+    background-color: #1C364D;
+    margin-top: 0;
+    padding: 1%;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: -apple-system;
+}
+
+/* Header styles for distribution section */
+#distribution_header {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 0.5%;
+    text-align: center;
+    font-family: -apple-system;
+    align-content: center;
+    background-color: #33495c;
+    color: #FFFFFF;
+}
+
+/* Header styles for combination section */
+#combination_header {
+    width: 100%;
+    height: auto;
+    float: left;
+    font-family: -apple-system;
+    align-content: center;
+    text-align: center;
+    background-color: #33495c;
+    color: #FFFFFF;
+}
+
+/* Header styles for multivariate section */
+#multivariate_header {
+    width: 100%;
+    height: auto;
+    float: left;
+    font-family: -apple-system;
+    align-content: center;
+    text-align: center;
+    background-color: #33495c;
+    color: #FFFFFF;
+}
+
+/* Set height and width for lower container */
+#lower-container {
+    height: auto;
+    width: 100%;
+}
+
+/* Style for list group */
+#ListGroup {
+    list-style: none;
+    font-size: x-large;
+    text-align: left;
+}
+
+/* Style for infobox in upper left corner */
+#infobox_upperleft {
+    margin: 0.5%;
+    width: 20%;
+    height: auto;
+    padding: 1%;
+    float: left;
+    background-color: #F0F3F7;
+    text-align: center;
+    font-family: -apple-system;
+}
+
+/* Style for key numbers section */
+#keynumbers {
+    width: auto;
+    height: auto;
+    padding: 0.5%;
+    align-self: center;
+    background-color: #FFFFFF;
+    font-family: -apple-system;
+    font-size: medium;
+}
+
+/* Style for average claim key number */
+#keynum_avg_claim {
+    width: 100%;
+    height: 100px;
+    border-color: #F0F3F7;
+    border-style: solid;
+    border-width: thin;
+}
+
+/* Style for percentage of fraud key number */
+#keynum_perc_fraud {
+    width: 100%;
+    height: 100px;
+    border-color: #F0F3F7;
+    border-style: solid;
+    border-width: thin;
+}
+
+/* Style for average count key number */
+#keynum_avg_count {
+    width: 100%;
+    height: 100px;
+    border-color: #F0F3F7;
+    border-style: solid;
+    border-width: thin;
+}
+
+/* Style for timeline section */
+#timelinebox {
+    height: 450px;
+    margin: 0.5%;
+    width: 72%;
+    padding: 1%;
+    float: right;
+    background-color: #F0F3F7;
+}
+
+/* Distribution plots */
+/* Distribution controls */
+#distribution_controls {
+    width: 20%;
+    padding: 1%;
+    height: 515px;
+    float: left;
+    margin: 0.5%;
+    background-color: #F0F3F7;
+    font-size: x-large;
+    font-family: -apple-system;
+    align-content: center;
+    text-align: center;
+}
+
+/* Fraud bool box */
+#fraudbool_box {
+    height: auto;
+    margin-top: 0.5%;
+    padding: 0.25%;
+    align: center;
+    padding-bottom: 1%;
+    background-color: #FFFFFF;
+}
+
+/* Date picker box */
+#datepicker_box {
+    height: auto;
+    margin-top: 1%;
+    padding: 5px;
+    padding-bottom: 1%;
+    align: center;
+    background-color: #FFFFFF;
+}
+
+/* Distribution attribute */
+#distributionattribute {
+    height: auto;
+    margin-top: 1%;
+    padding: 5px;
+    padding-bottom: 1%;
+    align: center;
+    background-color: #FFFFFF;
+}
+
+/* Boxplot */
+#boxplotbox {
+    width: 34.5%;
+    float: right;
+    margin: 0.5%;
+    background-color: #F0F3F7;
+    padding: 1%;
+}
+
+/* Histogram */
+#histogrambox {
+    width: 34.5%;
+    float: right;
+    margin: 0.5%;
+    background-color: #F0F3F7;
+    padding: 1%;
+}
+
+/********************* COMBINATION CONTROLS *********************/
+#combination_control_box {
+    width: 20%;
+    height: 465px;
+    float: left;
+    margin: 0.5%;
+    background-color: #F0F3F7;
+    padding: 1%;
+    font-size: x-large;
+    font-family: -apple-system;
+    align-content: center;
+    text-align: center;
+}
+
+#combination_first_dropdown {
+    height: auto;
+    padding: 0.25%;
+    padding-bottom: 1%;
+    margin-top: 50px;
+    align: center;
+    background-color: #FFFFFF;
+
+}
+
+#combination_second_dropdown {
+    height: auto;
+    margin-top: 50px;
+    padding: 0.25%;
+    padding-bottom: 1%;
+    align: center;
+    align: center;
+    background-color: #FFFFFF;
+}
+
+/********************* HEATMAP *********************/
+#heatmap {
+    width: 34.5%;
+    height: 465px;
+    float: right;
+    margin: 0.5%;
+    background-color: #F0F3F7;
+    padding: 1%;
+}
+
+/********************* STACKED BARCHART *********************/
+#stack {
+    width: 34.5%;
+    height: 465px;
+    float: right;
+    margin: 0.5%;
+    background-color: #F0F3F7;
+    padding: 1%;
+}
+
+
+/********************* PARALLEL PLOT *********************/
+#parallel_dropdownbox {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 0.5%;
+    padding: 1%;
+    background-color: #F0F3F7;
+    font-size: x-large;
+    font-family: -apple-system;
+    align-content: center;
+    text-align: center;
+}
+
+#parallel_dropdown {
+    height: auto;
+    padding: 0.5%;
+    background-color: #FFFFFF;
+}
+
+#parallelbox {
+    width: 99%;
+    float: left;
+    margin: 0.5%;
+    background-color: #F0F3F7;
+    padding: 1%;
+}
+
+/********************* DROPDOWNS *********************/
+.dropdown {
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 0.25%;
+}
+
+.dropdown .Select-control {
+    background-color: white;
+}
+
+.dropdown .Select-menu-outer {
+    background-color: white;
+}
+
+.dropdown .Select-value {
+    background-color: #3BA27A;
+    color: white;
+    font-size: 14px;
+}
+
+.dropdown .VirtualizedSelectFocusedOption {
+    background-color: #a5ecd1;
+    color: black;
+}
+
+.dropdown .VirtualizedSelectOption {
+    font-size: 14px;
+}
+
+.DateRangePickerInput {
+    background-color: #FFFFFF;
+}
+
+.parent {
+    display: flex;
+    flex-direction: row;
+}
+
+.spacer {
+    flex-grow: 1;
+}
+
+.plot {
+    display: flex;
+    width: 50%
+}
+
+@media screen and (max-width: 1200px) {
+    .parent {
+        flex-direction: column;
+    }
+
+    .plot {
+        width: 100%
+    }
+}
